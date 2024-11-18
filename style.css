@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+  font-family: "Playwrite GB", sans-serif;
+  background-color: #e3dfff;
+  color: #3d3a4b;
+  line-height: 1.5;
+  text-align: left; /* Align text to the left for better readability */
+  max-width: 40em; /* Set the maximum width of the body text */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+p {
+  max-width: 40em; /* You can also set a specific max-width for paragraphs */
+  margin: 0 auto; /* Ensures the paragraph is centered within the body */
+}
+
+header {
+  background-color: #2e3a59;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  color: #2e3a59;
+  margin-bottom: 20px;
+}
+
+.chapters ul {
+  list-style: none;
+  padding: 0;
+}
+
+.chapters ul li {
+  margin: 10px 0;
+}
+
+.chapters ul li a {
+  color: #2e3a59;
+  font-size: 1.3em;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.chapters ul li a:hover {
+  color: #bf7e5f;
+}
+
+footer {
+  background-color: #2e3a59;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
